@@ -1,0 +1,28 @@
+Intercom Take Home Test
+
+Required Software
+================
+
+NodeJS 14.4.0
+NPM 6.14.5
+
+Instructions for installation (Ubuntu): https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+
+Install Dependencies
+====================
+
+Download the code and open a shell in the project's root directory
+
+Run "npm install"
+
+
+
+Tests and Execution
+===================
+
+Still in the shell in the project's root directory, run "npm test"
+
+Run "npm test:cov" for test coverage report
+
+Run "INTERCOM_DATA_FILE_PATH=./customers.txt node app/index.js"
